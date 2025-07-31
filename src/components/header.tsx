@@ -7,7 +7,7 @@ export function Header() {
       <div className="container flex h-14 max-w-screen-2xl items-center">
         <Link href="/" className="flex items-center gap-2 font-bold text-lg">
           <Code className="h-6 w-6 text-primary" />
-          <span className="font-headline">Visionary</span>
+          <span className="font-headline"></span>
         </Link>
         <nav className="ml-auto flex items-center gap-4 sm:gap-6">
           <Link

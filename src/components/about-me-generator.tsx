@@ -24,7 +24,7 @@ import { Skeleton } from './ui/skeleton';
 
 export function AboutMeGenerator() {
   const [originalText, setOriginalText] = useState(
-    "I'm a passionate full-stack developer with a keen eye for design and user experience. I love building modern, responsive, and performant web applications that solve real-world problems."
+    "I'm a recent graduate in Computer Science and enginnering and a passionate developer with hands on experience in Java and Android . Also have some knwoledge in Flask. Currently learning SpringBoot for backend development "
   );
   const [style, setStyle] = useState('professional');
   const [length, setLength] = useState('medium');

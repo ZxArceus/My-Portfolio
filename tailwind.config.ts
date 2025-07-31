@@ -15,45 +15,46 @@ export default {
         code: ['monospace'],
       },
       colors: {
-        background: 'hsl(var(--background))',
-        foreground: 'hsl(var(--foreground))',
+        // Light Theme Colors
+        background: '#FFFFFF', // White
+        foreground: '#333333', // Dark Gray
         card: {
-          DEFAULT: 'hsl(var(--card))',
-          foreground: 'hsl(var(--card-foreground))',
+          DEFAULT: '#F0F0F0', // Light Gray
+          foreground: '#333333', // Dark Gray
         },
         popover: {
-          DEFAULT: 'hsl(var(--popover))',
-          foreground: 'hsl(var(--popover-foreground))',
+          DEFAULT: '#FFFFFF', // White
+          foreground: '#333333', // Dark Gray
         },
         primary: {
-          DEFAULT: 'hsl(var(--primary))',
-          foreground: 'hsl(var(--primary-foreground))',
+          DEFAULT: '#007BFF', // Moderate Blue
+          foreground: '#FFFFFF', // White
         },
         secondary: {
-          DEFAULT: 'hsl(var(--secondary))',
-          foreground: 'hsl(var(--secondary-foreground))',
+          DEFAULT: '#28A745', // Subtle Green
+          foreground: '#FFFFFF', // White
         },
         muted: {
-          DEFAULT: 'hsl(var(--muted))',
-          foreground: 'hsl(var(--muted-foreground))',
+          DEFAULT: '#F0F0F0', // Light Gray
+          foreground: '#555555', // Medium Gray
         },
         accent: {
-          DEFAULT: 'hsl(var(--accent))',
-          foreground: 'hsl(var(--accent-foreground))',
+          DEFAULT: '#28A745', // Subtle Green
+          foreground: '#FFFFFF', // White
         },
         destructive: {
-          DEFAULT: 'hsl(var(--destructive))',
-          foreground: 'hsl(var(--destructive-foreground))',
+          DEFAULT: '#DC3545', // Red
+          foreground: '#FFFFFF', // White
         },
-        border: 'hsl(var(--border))',
-        input: 'hsl(var(--input))',
-        ring: 'hsl(var(--ring))',
+        border: '#CED4DA', // Light Blue-Gray
+        input: '#CED4DA', // Light Blue-Gray
+        ring: '#007BFF', // Moderate Blue
         chart: {
-          '1': 'hsl(var(--chart-1))',
-          '2': 'hsl(var(--chart-2))',
-          '3': 'hsl(var(--chart-3))',
-          '4': 'hsl(var(--chart-4))',
-          '5': 'hsl(var(--chart-5))',
+          '1': '#007BFF',
+          '2': '#28A745',
+          '3': '#FFC107',
+          '4': '#DC3545',
+          '5': '#6610F2',
         },
       },
       borderRadius: {

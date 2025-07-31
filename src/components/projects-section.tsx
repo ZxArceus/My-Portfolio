@@ -8,70 +8,49 @@ import { ProjectDetailsModal } from './project-details-modal';
 const projects: Project[] = [
   {
     id: 1,
-    title: 'E-commerce Platform',
-    description: 'A full-featured online store with a modern UI.',
-    longDescription:
-      'Developed a responsive and scalable e-commerce platform using React, Node.js, and a microservices architecture. Features include product catalog, shopping cart, user authentication, and a payment gateway integration.',
-    image: 'https://placehold.co/600x450.png',
-    tags: ['React', 'Node.js', 'TypeScript', 'Microservices'],
+    title: 'Heart Disease Prediction System',
+    description: 'A heart disease prediction system  with a modern UI.',
+    longDescription: 'Developed a web application using Flask, SQLAlchemy, Html , CSS and Gradient Boosting Classifier algorithm to predict a persons heart disease risk percentage',
+
+    tags: ['Flask', 'SQLAlchemy', 'Html', 'Machine Learning'],
     link: '#',
-    github: '#',
+    github: 'https://github.com/ZxArceus/Heart_Disease_Prediction',
+    image: ''
   },
   {
     id: 2,
-    title: 'Project Management Tool',
-    description: 'A collaborative tool to manage tasks and projects.',
-    longDescription:
-      'Designed and built a web-based project management application that helps teams organize their work. It includes features like task boards, calendars, file sharing, and real-time collaboration.',
-    image: 'https://placehold.co/600x450.png',
-    tags: ['Vue.js', 'Firebase', 'Sass'],
+    title: 'Weather App',
+    description: 'A weather app to fetch location data',
+    longDescription: 'Designed a weather app in Android Studio with a modern UI using openweathermap API ',
+
+    tags: ['Java', 'Android studio', 'XML', 'API Integration'],
     link: '#',
-    github: '#',
+    github: 'https://github.com/ZxArceus/weather-App',
+    image: ''
   },
   {
     id: 3,
-    title: 'Personal Blog',
-    description: 'A lightweight and fast blog built with a static site generator.',
-    longDescription:
-      'Created a personal blog to share insights on web development and technology. Optimized for performance and SEO, using a static site generator and a headless CMS for content management.',
-    image: 'https://placehold.co/600x450.png',
-    tags: ['Gatsby', 'GraphQL', 'Contentful', 'SEO'],
+    title: 'quizz App',
+    description: 'A quiz app to test your general knowledge',
+    longDescription: 'Created a quizz app to test your general knwoledge by integrating Trivia Api',
+
+    tags: ['Java', 'XML', 'API Integration'],
     link: '#',
-    github: '#',
+    github: 'https://github.com/ZxArceus/Quiz-App',
+    image: ''
   },
   {
     id: 4,
-    title: 'Data Visualization Dashboard',
-    description: 'An interactive dashboard for visualizing complex datasets.',
-    longDescription:
-      'Built a powerful data visualization dashboard using D3.js and React. It allows users to explore and analyze large datasets through interactive charts and graphs, providing valuable insights.',
-    image: 'https://placehold.co/600x450.png',
-    tags: ['React', 'D3.js', 'Python', 'Flask'],
+    title: 'Portfolio',
+    description: 'A  portfolio website built with Next.js and Firebase Studio',
+    longDescription: '',
+
+    tags: [ 'Firebase Studio'],
     link: '#',
-    github: '#',
+    github: 'https://github.com/ZxArceus/My-Portfolio',
+    image: ''
   },
-  {
-    id: 5,
-    title: 'Mobile Fitness App',
-    description: 'A cross-platform app to track workouts and nutrition.',
-    longDescription:
-      'Developed a mobile fitness application for both iOS and Android using React Native. The app helps users track their workouts, monitor their nutrition, and set fitness goals, featuring a clean and intuitive user interface.',
-    image: 'https://placehold.co/600x450.png',
-    tags: ['React Native', 'Expo', 'GraphQL', 'Supabase'],
-    link: '#',
-    github: '#',
-  },
-  {
-    id: 6,
-    title: 'AI Chatbot Assistant',
-    description: 'An intelligent chatbot for customer support.',
-    longDescription:
-      'Implemented an AI-powered chatbot using natural language processing to provide instant customer support. The chatbot is integrated into a web application and can handle a wide range of user queries.',
-    image: 'https://placehold.co/600x450.png',
-    tags: ['AI', 'NLP', 'Python', 'Dialogflow'],
-    link: '#',
-    github: '#',
-  },
+ 
 ];
 
 export function ProjectsSection() {

@@ -8,9 +8,9 @@ import {
 } from '@/components/ui/dialog';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import Image from 'next/image';
+
 import Link from 'next/link';
-import { Github, Link as LinkIcon } from 'lucide-react';
+import { Github } from 'lucide-react';
 import type { Project } from '@/lib/types';
 
 interface ProjectDetailsModalProps {
@@ -30,16 +30,8 @@ export function ProjectDetailsModal({
     <Dialog open={isOpen} onOpenChange={onOpenChange}>
       <DialogContent className="sm:max-w-[600px]">
         <DialogHeader>
-          <div className="relative mb-4 aspect-video w-full">
-            <Image
-              src={project.image}
-              alt={project.title}
-              fill
-              className="rounded-md object-cover"
-              data-ai-hint="website screenshot"
-            />
-          </div>
-          <DialogTitle className="font-headline text-2xl">
+          
+          <DialogTitle className="font-headline text-2xl pt-4">
             {project.title}
           </DialogTitle>
           <DialogDescription>{project.longDescription}</DialogDescription>
@@ -55,14 +47,6 @@ export function ProjectDetailsModal({
           </div>
         </div>
         <div className="flex gap-4">
-          {project.link && (
-            <Link href={project.link} target="_blank" rel="noreferrer">
-              <Button>
-                <LinkIcon className="mr-2 h-4 w-4" />
-                Live Site
-              </Button>
-            </Link>
-          )}
           {project.github && (
             <Link href={project.github} target="_blank" rel="noreferrer">
               <Button variant="outline">

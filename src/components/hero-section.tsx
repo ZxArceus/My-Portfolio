@@ -10,11 +10,11 @@ export function HeroSection() {
     >
       <div className="mx-auto max-w-2xl space-y-4">
         <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
-          Visionary
+          Welcome to My Portfolio
         </h1>
         <p className="text-lg text-muted-foreground">
-          A modern and professional portfolio to showcase your work, skills, and
-          creativity. Built with Next.js and love.
+          A modern and professional portfolio to showcase my  skills, and
+          creativity. Built with Next.js and Firebase studio.
         </p>
       </div>
       <div className="mt-8 flex gap-4">
