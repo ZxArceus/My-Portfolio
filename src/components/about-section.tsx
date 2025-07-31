@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import { AboutMeGenerator } from './about-me-generator';
 import { Badge } from './ui/badge';
 
 export function AboutSection() {
@@ -56,9 +55,6 @@ export function AboutSection() {
             data-ai-hint="portrait developer"
           />
         </div>
-      </div>
-      <div className="mt-20">
-        <AboutMeGenerator />
       </div>
     </section>
   );
