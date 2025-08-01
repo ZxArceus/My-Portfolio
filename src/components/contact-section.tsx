@@ -7,7 +7,10 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
-import { Mail } from 'lucide-react';
+// Import Link from next/link
+import Link from 'next/link';
+// Import the icons
+import { Mail, Linkedin } from 'lucide-react';
 
 export function ContactSection() {
   return (
@@ -16,17 +19,18 @@ export function ContactSection() {
         <CardHeader>
           <CardTitle className="font-headline text-3xl">Get in Touch</CardTitle>
           <CardDescription>
-            Have a project in mind or just want to say hi? I'd love to hear
+             want to say hi? I'd love to hear
             from you.
           </CardDescription>
         </CardHeader>
-        <CardContent>
-          <a href="mailto:mondalankt619@gmail.com">
-            <Button>
-              <Mail className="mr-2 h-4 w-4" />
-              Email Me
-            </Button>
+        <CardContent className="flex items-center justify-center gap-2">
+          {/* Mail Icon and email address with mailto link */}
+          <a href="mailto:mondalankt619@gmail.com" className="flex items-center gap-1">
+            <Mail className="h-6 w-6" /> {/* Using lucide-react Mail icon */}
+            <span>mondalankt619@gmail.com</span>
           </a>
+
+          
         </CardContent>
       </Card>
     </section>

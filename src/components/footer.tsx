@@ -14,9 +14,7 @@ export function Footer() {
           <Link href="https://www.linkedin.com/in/ankit-mondal-37599924a" target="_blank" rel="noreferrer">
             <Linkedin className="h-5 w-5 transition-colors hover:text-primary" />
           </Link>
-          <a href="mailto:mondalankt619@gmail.com">
-            <Mail className="h-5 w-5 transition-colors hover:text-primary" />
-          </a>
+          
         </div>
       </div>
     </footer>
