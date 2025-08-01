@@ -1,69 +1,92 @@
-# Visionary Portfolio
+<!DOCTYPE html>
+<html>
+<head>
+<title>Visionary Portfolio - README</title>
+<style>
+  body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+  }
+  h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  code {
+    background-color: #f4f4f4;
+    padding: 2px 5px;
+    border-radius: 4px;
+  }
+  pre code {
+    display: block;
+    padding: 10px;
+    overflow-x: auto;
+  }
+  a {
+    color: #0366d6;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+  <h1>Visionary Portfolio</h1>
 
-Visionary is a clean and visually appealing portfolio website built with Next.js, featuring a light mode theme.
+  <p>
+    Visionary is a clean and visually appealing portfolio website built with Next.js, featuring a light mode theme.
+  </p>
 
-## Features
+  <h2>Live Demo</h2>
+  <p>
+    Check out the live demo of the portfolio here:
+    <a href="https://heartfelt-jelly-24c5e3.netlify.app/" target="_blank" rel="noopener noreferrer">
+      https://heartfelt-jelly-24c5e3.netlify.app/
+    </a>
+  </p>
 
-*   **Portfolio Display:** Showcase your projects in a clean and modern layout.
-*   **Project Details:** Click on project cards to view detailed information.
-*   **About Me Section:** Introduce yourself and highlight your skills and experience.
-*   **Navigation:** Easy-to-use navigation links for smooth browsing.
-*   **Contact Form:** Allow visitors to get in touch with you.
+  <h2>Features</h2>
 
-## Technologies Used
+  <ul>
+    <li><strong>Portfolio Display:</strong> Showcase your projects in a clean and modern layout.</li>
+    <li><strong>Project Details:</strong> Click on project cards to view detailed information.</li>
+    <li><strong>About Me Section:</strong> Introduce yourself and highlight your skills and experience.</li>
+    <li><strong>Navigation:</strong> Easy-to-use navigation links for smooth browsing.</li>
+    <li><strong>Contact Form:</strong> Allow visitors to get in touch with you.</li>
+  </ul>
 
-*   Next.js
-*   React
-*   TypeScript
-*   Tailwind CSS
-*   Firebase App Hosting (for deployment)
+  <h2>Technologies Used</h2>
 
-## Getting Started
+  <ul>
+    <li>Next.js</li>
+    <li>React</li>
+    <li>TypeScript</li>
+    <li>Tailwind CSS</li>
+    <li>Firebase App Hosting (for deployment)</li>
+  </ul>
 
-1.  **Clone the repository:**
+  <h2>Getting Started</h2>
 
-    ```bash
-    git clone <your-github-repo-url>
-    ```
-2.  **Install dependencies:**
+  <p>1.  <strong>Clone the repository:</strong></p>
 
-    ```bash
-    npm install
-    ```
-3.  **Run the development server:**
+  <pre><code>git clone &lt;your-github-repo-url&gt;
+</code></pre>
 
-    ```bash
-    npm run dev
-    ```
+  <p>2.  <strong>Install dependencies:</strong></p>
 
-    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  <pre><code>npm install
+</code></pre>
 
-## Deployment
+  <p>3.  <strong>Run the development server:</strong></p>
 
-This project is configured for deployment with Firebase App Hosting. 
+  <pre><code>npm run dev
+</code></pre>
 
-1.  Make sure you have the Firebase CLI installed and are logged in.
-2.  Build your project:
-
-    ```bash
-    npm run build
-    ```
-3.  Deploy to Firebase:
-
-    ```bash
-    firebase deploy --only apphosting
-    ```
-
-Alternatively, you can deploy to other platforms like Vercel or Netlify by connecting your Git repository.
-
-## Contributing
-
-If you'd like to contribute to this project, please fork the repository and create a pull request.
-
-## License
-
-This project is open source and available under the [specify license, e.g., MIT License].
-
----
-
-**Built with ❤️ by Ankit **
+  <p>
+    Open <a href="http://localhost:3000">http://localhost:3000</a> with your browser to see the result.
+  </p>
+</body>
+</html>
